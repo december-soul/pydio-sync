@@ -11,4 +11,4 @@ RUN apk add gcc
 RUN apk add libffi-dev
 RUN pip install git+https://github.com/pydio/pydio-sync.git
 
-CMD python -m pydio.main --api_address 0.0.0.0 --api_user test --api_password test
+CMD python -m pydio.main --api_address 0.0.0.0 --api_user pydio --api_password pydio
